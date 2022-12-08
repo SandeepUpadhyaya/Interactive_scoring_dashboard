@@ -54,11 +54,11 @@ if Scoring == 'single record scoring':
         
   
 
-        def plot_feature_importances(model):
-            feature_imp = pd.Series(model.feature_importances_,index=features_names).sort_values(ascending=False)[:10]
-            st.bar_chart(feature_imp)
-            st.subheader('Feature Importance')
-        plot_feature_importances(loaded_model)
+#         def plot_feature_importances(model):
+#             feature_imp = pd.Series(model.feature_importances_,index=features_names).sort_values(ascending=False)[:10]
+#             st.bar_chart(feature_imp)
+#             st.subheader('Feature Importance')
+#         plot_feature_importances(loaded_model)
   
     def main():
 
