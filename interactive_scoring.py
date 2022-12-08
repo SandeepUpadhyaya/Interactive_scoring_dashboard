@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 import joblib
-from xgboost import XGBClassifier
+# from xgboost import XGBClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
