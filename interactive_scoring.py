@@ -24,7 +24,7 @@ if Scoring == 'single record scoring':
     serialised_file = st.sidebar.file_uploader("Upload serialised file(picke or joblib file")
 
     loaded_model = joblib.load(serialised_file)
-    features_names = pd.DataFrame(loaded_model.feature_names_in_)
+#     features_names = pd.DataFrame(loaded_model.feature_names_in_)
     # input_df = pd.read_csv(csv_file,index_col=0)
     input_df = pd.read_csv(csv_file)
     input_data = []
